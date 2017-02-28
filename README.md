@@ -1,7 +1,7 @@
-## Pset1
+### Pset1
 содержит задания из hacker1 (mario.c, water.c, credit.c) и дополнительно содержит решение задания из pset1 - greedy.c
 
-### Чеки заданий:
+**Чеки заданий:**
 
 water.c
 *https://sandbox.cs50.net/checks/aeb1d634963640688a7ce5c280723d7c*
@@ -16,9 +16,9 @@ mario.c
 
 
 
-## Pset2
+### Pset2
 
-### Чеки заданий:
+**Чеки заданий:**
 
 initials.c
 *https://sandbox.cs50.net/checks/1807e2738a9e401b8dbed1c7db85e2f0*
@@ -27,4 +27,4 @@ caesar.c
 *https://sandbox.cs50.net/checks/b651d7686bf24157a21ecbcca90f68da*
 
 vigenere.c
-*https://sandbox.cs50.net/checks/15c2647f03e347bfbaa71581cc12a5e8*
+*https://sandbox.cs50.net/checks/28571ad4de504991aaff292991a93020*
