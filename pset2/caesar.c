@@ -5,6 +5,7 @@
 #include <ctype.h>  // для isalpha islower isupper
 
 int k; //Хранилище для цифры со строки
+
 int main(int argc, string argv[]) // argv[] - содержит цифры со строки, argc - содержит ввод пользователя
 {
   if (argc < 2 || atoi(argv[1]) < 0)
