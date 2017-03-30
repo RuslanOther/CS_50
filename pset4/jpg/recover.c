@@ -39,8 +39,10 @@ int main(void)
     FILE* tempFile; 
     
     // Цикл читает входной файл и работает пока не достигнут конец файла.
-    while (fread(buffer, sizeof(buffer), 1, infile) && !feof(infile))
+    while (!feof(infile))
     {
+        fread(buffer, 512, 1, infile);
+        
         // Проверка "магического числа" jpg файла
         if (buffer[0] == 0xff && buffer[1] == 0xd8 && buffer[2] == 0xff)
         {
@@ -50,7 +52,7 @@ int main(void)
             // Открываю временный файл
             tempFile = fopen(outFile, "w");
             
-            // Записываю в него данные блоками по 512 байт
+            // Записываю в него данные блоком 512 байт
             fwrite(buffer, 512, 1, tempFile);
             
             // Инкремент для названия следующего файла
